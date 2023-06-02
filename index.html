@@ -43,7 +43,7 @@
 				<img src="./assets/svg/phone.svg" alt="Phone">
 				+971508547841
 			</a>
-			<button class="btn header__btn">
+			<button class="btn header__btn open-popup">
 				<span>
 					Заказать звонок
 				</span>
@@ -51,7 +51,25 @@
 		</div>
 	</header>
 	<main class="main">
-		
+		<div class="popup__bg">
+			<form class="popup__application">
+				<h5 class="popup__application--item_text">
+					Оставьте заявку
+				</h5>
+				<form action="" class="popup__application--item_form">
+					<label class="popup__application--item_form-label">
+						<input class="popup__application--item_form-input" type="text" placeholder="Ваше имя">
+					</label>
+					<label class="popup__application--item_form-label">
+						<input  class="popup__application--item_form-input" type="tel" placeholder="Телефон">
+					</label>
+					<label class="popup__application--item_form-label">
+						<input  class="popup__application--item_form-input" type="email" placeholder="Email">
+					</label>
+					<input class="popup__application--item_submit" type="submit" value="ОТПРАВИТЬ">
+				</form>
+			</form>
+		</div>
 		<section class="home" id="home">
 			<img class="home__background" src="./assets/images/people.png" alt="/">
 			<div class="home__backg"></div>
@@ -272,7 +290,7 @@
 		</section>
 	</main>
 	<footer>
-	
+
 	</footer>
 	
 	<script src="./app.js"></script>
